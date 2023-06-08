@@ -1,0 +1,20 @@
+﻿
+	O META o no unused namespace(s)
+
+	O TYPE o no unused namespace(s)
+
+	O LINK o no unused namespace()
+
+	/object\OBJECT
+
+sequence Log
+
+	>Compressed
+	<<LogCompressed.cs
+
+	>Prototype
+	<<LogPrototype.cs
+
+	<Log.cs
+
+end sequence
