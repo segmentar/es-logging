@@ -6,11 +6,11 @@ namespace Core.Shared
 
     public partial class SLLogger
     {
-        public static SLLogger Runtime_MakeLoggerNew(params Object[] array_OBJECT_SYMBOL)
+        public static SLLogger Runtime_MakeLoggerNew(params Object[] array_OBJECT_SYMBOL_case)
         {
             SLLogger loggerResult = default;
 
-            loggerResult = MakeLoggerNew(array_OBJECT_SYMBOL, SAPolicy.LoggerDebugPolicy);
+            loggerResult = MakeLoggerNew(array_OBJECT_SYMBOL_case, SAPolicy.LoggerDebugPolicy);
 
             return loggerResult;
         }

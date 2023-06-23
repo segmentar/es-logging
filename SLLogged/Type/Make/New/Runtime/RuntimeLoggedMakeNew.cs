@@ -6,11 +6,11 @@ namespace Core.Shared
 
     public partial class SLLogged
     {
-        public static SLLogged Runtime_MakeLoggedNew(params Object[] array_OBJECT_SYMBOL)
+        public static SLLogged Runtime_MakeLoggedNew(params Object[] array_OBJECT_SYMBOL_case)
         {
             SLLogged loggedResult = default;
 
-            loggedResult = MakeLoggedNew(array_OBJECT_SYMBOL, SAPolicy.LoggedDebugPolicy);
+            loggedResult = MakeLoggedNew(array_OBJECT_SYMBOL_case, SAPolicy.LoggedDebugPolicy);
 
             return loggedResult;
         }
