@@ -6,15 +6,15 @@ namespace Core.Shared
 
     public partial class SLLogger
     {
-        public static SLLogger MakeLoggerNew(Object[] array_OBJECT_SYMBOL_case, Boolean debug)
+        public static SLLogger MakeLoggerNew(Object[] array_OBJECT, Boolean debug)
         {
             SLLogger loggerResult = default;
 
             Console.Clear();
 
-            foreach (Object object_SYMBOL in array_OBJECT_SYMBOL_case)
+            foreach (Object entry in array_OBJECT)
             {
-                Console.Out.WriteLine(object_SYMBOL.ToString());
+                Console.Out.WriteLine(entry.ToString());
 
                 continue;
             }

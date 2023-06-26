@@ -6,11 +6,11 @@ namespace Core.Shared
 
     public partial class SLLogged
     {
-        public static SLLogged MakeLoggedNew(Object[] array_OBJECT_SYMBOL_case, Boolean debug)
+        public static SLLogged MakeLoggedNew(Object[] array_OBJECT, Boolean debug)
         {
             SLLogged loggedResult = default;
 
-            LoggedZeroTenVoid(array_OBJECT_SYMBOL_case);
+            LoggedZeroTenVoid(array_OBJECT);
 
             loggedResult = new SLLogged(debug);
 

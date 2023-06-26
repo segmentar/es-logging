@@ -6,11 +6,11 @@ namespace Core.Shared
 
     public partial class SLLogged
     {
-        public static void LoggedZeroTenVoid(Object[] array_OBJECT_SYMBOL_case)
+        public static void LoggedZeroTenVoid(Object[] array_OBJECT)
         {
-            foreach (Object object_SYMBOL in array_OBJECT_SYMBOL_case)
+            foreach (Object entry in array_OBJECT)
             {
-                Console.Out.WriteLine(object_SYMBOL.ToString());
+                Console.Out.WriteLine(entry.ToString());
 
                 continue;
             }

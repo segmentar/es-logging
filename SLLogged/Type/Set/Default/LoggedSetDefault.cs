@@ -17,9 +17,9 @@ namespace Core.Shared
 
             collectionResult = new Collection<SLLogged>();
 
-            foreach (Object item in enumerable)
+            foreach (Object entry in enumerable)
             {
-                var logged = Runtime_MakeLoggedNew(item);
+                var logged = Runtime_MakeLoggedNew(entry);
 
                 collectionResult.Add(logged);
 

@@ -6,11 +6,11 @@ namespace Core.Shared
 
     public partial class SLLog
     {
-        public static SLLog Runtime_MakeLogNew(params Object[] array_OBJECT_SYMBOL_case)
+        public static SLLog Runtime_MakeLogNew(params Object[] array_OBJECT)
         {
             SLLog logResult = default;
 
-            logResult = MakeLogNew(array_OBJECT_SYMBOL_case, SAPolicy.LogDebugPolicy);
+            logResult = MakeLogNew(array_OBJECT, SAPolicy.LogDebugPolicy);
 
             return logResult;
         }
