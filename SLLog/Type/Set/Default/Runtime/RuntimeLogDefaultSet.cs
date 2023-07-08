@@ -11,7 +11,7 @@ namespace Core.Shared
 
     public partial class SLLog
     {
-        public static SLLog[] Runtime_LogDefaultSet(IEnumerable<SLLog> enumerable)
+        public static SLLog[] Runtime_LogDefaultSet(IEnumerable<Object> enumerable)
         {
             SLLog[] arrayResult = default;
 

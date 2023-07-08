@@ -17,11 +17,13 @@ namespace Core.Shared
 
             collectionResult = new Collection<SLLog>();
 
-            foreach (Object entry in enumerable)
+            foreach (Object object_ITEM in enumerable)
             {
-                var log = Runtime_MakeLogNew(entry);
+                var log = Runtime_MakeLogNew(object_ITEM);
 
                 collectionResult.Add(log);
+
+                continue;
             }
 
             return new List<SLLog>(collectionResult);

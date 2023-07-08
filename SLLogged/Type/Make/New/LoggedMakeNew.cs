@@ -6,11 +6,13 @@ namespace Core.Shared
 
     public partial class SLLogged
     {
-        public static SLLogged MakeLoggedNew(Object[] array_OBJECT, Boolean debug)
+        public static SLLogged MakeLoggedNew(Object object_ITEM, Boolean debug)
         {
             SLLogged loggedResult = default;
 
-            LoggedZeroTenVoid(array_OBJECT);
+            Console.Out.WriteLine(object_ITEM);
+
+            Console.ReadKey(true);
 
             loggedResult = new SLLogged(debug);
 

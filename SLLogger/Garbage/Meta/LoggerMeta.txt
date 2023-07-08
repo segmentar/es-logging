@@ -15,6 +15,6 @@ sequence Logger
 
 	<Logger.cs
 
-	/OBJECT\object
+	/OBJECT\object/
 
 end sequence

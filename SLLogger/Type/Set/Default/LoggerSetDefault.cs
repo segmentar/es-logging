@@ -17,9 +17,9 @@ namespace Core.Shared
 
             collectionResult = new Collection<SLLogger>();
 
-            foreach (Object entry in enumerable)
+            foreach (Object object_ITEM in enumerable)
             {
-                var logger = Runtime_MakeLoggerNew(entry);
+                var logger = Runtime_MakeLoggerNew(object_ITEM);
 
                 collectionResult.Add(logger);
 
